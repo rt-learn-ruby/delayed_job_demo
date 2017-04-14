@@ -1,7 +1,11 @@
 #
-class MailerJob < Struct.new(:id)
+class MailerJob
+  def initialize(id)
+    @id = id
+  end
+
   def perform
-    user = User.find(id)
+    user = User.find(@id)
     UserMailer.send_mailer(user).deliver
   end
 end
