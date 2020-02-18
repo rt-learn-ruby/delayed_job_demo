@@ -1,5 +1,7 @@
 # Overview
 
+Updated gem files to try and fix sec vul.
+
 This is based on screencast from codeschool, delayed job
 
 
@@ -7,7 +9,7 @@ Things you may want to cover:
 
 * Ruby version
 
-Ruby version 2.4.0  
+Ruby version 2.4.0
 Rails version 5.0.2
 
 
@@ -15,8 +17,8 @@ Rails version 5.0.2
 
 * Configuration
 
-  + Run `bundle install`  
-  + Set the gmail username and password to environment variables `GMAIL_USER` and `GMAIL_PWD`  
+  + Run `bundle install`
+  + Set the gmail username and password to environment variables `GMAIL_USER` and `GMAIL_PWD`
   + Google account need to enable less secure apps for testing.
 
 
@@ -42,7 +44,7 @@ Rails version 5.0.2
   `$ User.create(name: 'John')`
 
 
-* Run jobs: 
+* Run jobs:
 
 
 * How to run the test suite
