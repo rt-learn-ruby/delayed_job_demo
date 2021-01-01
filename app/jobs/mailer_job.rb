@@ -1,4 +1,5 @@
-#
+# frozen_string_literal: true
+
 class MailerJob
   def initialize(id)
     @id = id
